@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * mul_nodes - Adds the top two elements of the stack.
+ * multiply_nodes -  multiplies the 2 top element of the stack with the top element of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
-void mul_nodes(stack_t **stack, unsigned int line_number)
+void multiply_nodes(stack_t **stack, unsigned int line_number)
 {
 	int sum;
 

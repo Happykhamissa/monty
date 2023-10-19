@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * print_character - Prints the Ascii value.
+ * print_character - Prints the Ascii value at the top of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */

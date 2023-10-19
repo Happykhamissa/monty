@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * mod_nodes - Adds the top two elements of the stack.
+ * modulate_nodes - computes the rest of the division
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
-void mod_nodes(stack_t **stack, unsigned int line_number)
+void modulate_nodes(stack_t **stack, unsigned int line_number)
 {
 	int sum;
 

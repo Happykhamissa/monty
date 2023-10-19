@@ -1,11 +1,11 @@
 #include "monty.h"
 
 /**
- * div_nodes - Adds the top two elements of the stack.
+ * divide_nodes - divides the second top element of the stack by the top element of the stack.
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @line_number: Interger representing the line number of of the opcode.
  */
-void div_nodes(stack_t **stack, unsigned int line_number)
+void divide_nodes(stack_t **stack, unsigned int line_number)
 {
 	int sum;
 

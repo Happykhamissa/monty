@@ -1,7 +1,7 @@
 #include "monty.h"
 
 /**
- * print_string - Prints a string.
+ * print_string - prints the string starting at the top of the stack
  * @stack: Pointer to a pointer pointing to top node of the stack.
  * @ln: Interger representing the line number of of the opcode.
  */

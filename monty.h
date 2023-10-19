@@ -62,11 +62,11 @@ void pop_top(stack_t **, unsigned int);
 void nop(stack_t **, unsigned int);
 void swap_nodes(stack_t **, unsigned int);
 
-void add_nodes(stack_t **, unsigned int);
-void sub_nodes(stack_t **, unsigned int);
-void div_nodes(stack_t **, unsigned int);
-void mul_nodes(stack_t **, unsigned int);
-void mod_nodes(stack_t **, unsigned int);
+void addition_nodes(stack_t **, unsigned int);
+void subtracts_nodes(stack_t **, unsigned int);
+void divide_nodes(stack_t **, unsigned int);
+void multiply_nodes(stack_t **, unsigned int);
+void modulate_nodes(stack_t **, unsigned int);
 
 void print_character(stack_t **, unsigned int);
 void print_string(stack_t **, unsigned int);
